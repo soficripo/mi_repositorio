@@ -5,7 +5,6 @@ p ul {
 
 body p {
    flex-wrap: wrap;
-   margin: 2%
 }
 
 div {
@@ -15,7 +14,7 @@ div {
 
 body ul {
    flex-wrap: wrap;
-   list-style-type: circle;
+   list-style-type: square;
 }
 
 .desarrollo {
@@ -25,22 +24,10 @@ body ul {
    margin: 2%;
 }
 
-.imagen-desarrollo {
-   flex-wrap: wrap;
-   display: flex;
-   margin: 2%
-}
-
 .ubicacion {
    flex-wrap: wrap;
    display: flex;
    justify-content: space-evenly;
-}
-
-.imagen-ubicacion {
-   flex-wrap: wrap;
-   display: flex;
-   margin: 2%;
 }
 
 .productos {
@@ -48,3 +35,21 @@ body ul {
    display: flex;
    justify-content: space-evenly;
 }
+
+p ul {
+   flex-wrap: wrap;
+   padding-left: 2%;
+ }
+ 
+ body p {
+   flex-wrap: wrap;
+ }
+ 
+ div {
+   flex-wrap: wrap;
+ }
+ 
+ body ul {
+   flex-wrap: wrap;
+   list-style-type: square;
+ }
