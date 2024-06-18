@@ -66,7 +66,9 @@ body ul {
 .ubicacion {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
+  color: black;
+  margin: 2%;
+  justify-content: center;
 }
 
 .productos {
