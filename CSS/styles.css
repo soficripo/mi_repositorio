@@ -8,7 +8,6 @@ footer {
   flex-wrap: wrap;
   background-color: ivory;
 }
-
 footer ul {
   flex-wrap: wrap;
   list-style-type: square;
@@ -16,11 +15,13 @@ footer ul {
 }
 
 .comunicacion {
-  color: brown;
-  text-decoration: dotted;
-}
-.comunicacion .comunicacion:hover {
   color: black;
+  width: 100px;
+  transition: 3s;
+}
+
+.comunicacion:hover {
+  transform: rotateY(360deg);
 }
 
 header nav ul {
@@ -34,8 +35,19 @@ header nav ul {
 }
 
 .inicio {
-  color: rgba(94, 94, 110, 0.801);
   margin: 10%;
+}
+
+h1 {
+  color: rgba(94, 94, 110, 0.801);
+  width: 1000px;
+  height: 70px;
+  border: 1px solid black;
+  transition: 6s;
+}
+
+h1:hover {
+  transform: rotateY(180deg);
 }
 
 p ul {

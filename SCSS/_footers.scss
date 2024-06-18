@@ -10,10 +10,12 @@ footer {
 
 
 .comunicacion {
-  color: brown;
-  text-decoration: dotted;
+  color: black;
+  width: 100px;
+  transition: 3s;
+}
 
 .comunicacion:hover {
-  color: black;
-}
+   transform: rotateY(360deg);
+
 }
