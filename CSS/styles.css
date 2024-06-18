@@ -1,100 +1,92 @@
-.menu-bootstrap {
-   width: 100%;
-   display: flex;
-   justify-content: space-evenly;
+footer {
+  flex-wrap: wrap;
+  background-color: #f0f5f5;
 }
-
-header nav ul a {
-   color: #9fdadb
-}
-
-.inicio {
-   color: rgba(94, 94, 110, 0.801);
-   margin: 10%
-}
-
-p ul {
-   flex-wrap: wrap;
-   padding-left: 10px;
-}
-
-body p {
-   flex-wrap: wrap;
-   margin: 2%
-}
-
-
-.imagen {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   color: black;
-   margin: 2%
-}
-
-.ubicacion {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   color: black;
-}
-
-.productos {
-   flex-wrap: wrap;
-   display: flex;
-   justify-content: space-evenly;
-}
-
-body ul {
-   flex-wrap: wrap;
-   list-style-type: circle;
-}
-
-div {
-   flex-wrap: wrap;
-
+footer ul {
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: darkblue;
 }
 
 .comunicacion {
-   color: brown;
-   text-decoration: dotted;
+  color: brown;
+  text-decoration: dotted;
+}
+.comunicacion .comunicacion:hover {
+  color: black;
 }
 
-.comunicacion:hover {
-   color: black;
+header nav ul {
+  color: #9fdadb;
 }
 
-footer {
-   flex-wrap: wrap;
-   background-color: #f0f5f5;
-   padding: 1%;
+.menu-bootstrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-footer ul {
-   flex-wrap: wrap;
-   list-style-type: none;
-   color: darkblue;
+.inicio {
+  color: rgba(94, 94, 110, 0.801);
+  margin: 10%;
 }
 
+p ul {
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
 
+body p {
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+body ul {
+  flex-wrap: wrap;
+  list-style-type: circle;
+}
+
+.imagen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+  margin: 2%;
+}
+
+.ubicacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+}
+
+.productos {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  flex-wrap: wrap;
+}
 
 @media only screen and (max-width: 500px) {
-   body {
-      background-color: burlywood;
-   }
+  body {
+    background-color: burlywood;
+  }
 }
-
 @media only screen and (min-width: 501px) and (max-width: 968) {
-   body {
-      background-color: antiquewhite;
-   }
+  body {
+    background-color: antiquewhite;
+  }
 }
-
 @media only screen and (min-width: 961px) {
-   body {
-      background-color: aliceblue;
-   }
+  body {
+    background-color: aliceblue;
+  }
+}
+@font-face {
+  font-family: "roboto-general";
+  src: url("../roboto/Roboto-Regular.tff");
 }
 
-@font-face {
-   font-family: 'roboto-general';
-   src: url('../roboto/Roboto-Regular.tff');
-}
+/*# sourceMappingURL=styles.css.map */
