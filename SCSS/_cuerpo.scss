@@ -9,10 +9,11 @@ h1:hover {
 
 p ul {
    flex-wrap: wrap;
-   padding-left: 2%;
+   padding: 2%;
 }
 
 body p {
+   padding: 2%;
    flex-wrap: wrap;
 }
 
@@ -47,3 +48,6 @@ body ul {
    justify-content: space-evenly;
 }
 
+main {
+   padding: 2%;
+}

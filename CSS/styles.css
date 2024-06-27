@@ -7,6 +7,7 @@
 footer {
   flex-wrap: wrap;
   background-color: ivory;
+  padding: 2%;
 }
 footer ul {
   flex-wrap: wrap;
@@ -35,7 +36,7 @@ header nav ul {
 }
 
 .inicio {
-  margin: 10%;
+  margin: 5%;
 }
 
 h1 {
@@ -49,10 +50,11 @@ h1:hover {
 
 p ul {
   flex-wrap: wrap;
-  padding-left: 2%;
+  padding: 2%;
 }
 
 body p {
+  padding: 2%;
   flex-wrap: wrap;
 }
 
@@ -84,6 +86,10 @@ body ul {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
+}
+
+main {
+  padding: 2%;
 }
 
 @media only screen and (max-width: 500px) {
