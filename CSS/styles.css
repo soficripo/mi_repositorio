@@ -92,7 +92,7 @@ main {
 
 @media only screen and (max-width: 500px) {
   body {
-    background-color: burlywood;
+    background-color: rgb(252, 252, 251);
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 968) {
@@ -110,4 +110,4 @@ main {
   src: url("../roboto/Roboto-Regular.tff");
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css..map */
