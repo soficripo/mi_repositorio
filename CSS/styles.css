@@ -40,9 +40,6 @@ header nav ul {
 
 h1 {
   color: rgba(94, 94, 110, 0.801);
-  width: 1000px;
-  height: 70px;
-  border: 1px solid black;
   transition: 6s;
 }
 
@@ -91,7 +88,7 @@ body ul {
 
 @media only screen and (max-width: 500px) {
   body {
-    background-color: burlywood;
+    background-color: rgb(252, 251, 250);
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 968) {
