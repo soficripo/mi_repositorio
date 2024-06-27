@@ -2,10 +2,20 @@ h1 {
    padding: 2%;
    color: rgba(94, 94, 110, 0.801);
    transition: 6s;
+   flex-wrap: wrap;
+   display: flex;
 }
 
 h1:hover {
    transform: rotateY(180deg);
+}
+
+h2 {
+   font-size: medium;
+   padding: 2%;
+   color: rgba(94, 94, 110, 0.801);
+   flex-wrap: wrap;
+   display: flex;
 }
 
 p ul {
@@ -13,6 +23,11 @@ p ul {
    padding: 2%;
 }
 
+main {
+   padding: 2%;
+   flex-wrap: wrap;
+   display: flex;
+}
 
 body p {
    padding: 2%;
@@ -46,4 +61,6 @@ body ul {
    display: flex;
    justify-content: space-evenly;
 }
+
+
 
