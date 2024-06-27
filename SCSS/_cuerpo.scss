@@ -11,6 +11,11 @@ p ul {
    flex-wrap: wrap;
    padding: 2%;
 }
+main {
+   flex-wrap: wrap;
+   display: flex;
+   padding: 2%;
+}
 
 body p {
    padding: 2%;
@@ -19,7 +24,6 @@ body p {
 
 div {
    flex-wrap: wrap;
-
 }
 
 body ul {
@@ -46,6 +50,3 @@ body ul {
    justify-content: space-evenly;
 }
 
-main {
-padding: 2%;
-}

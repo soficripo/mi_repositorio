@@ -53,6 +53,12 @@ p ul {
   padding: 2%;
 }
 
+main {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 2%;
+}
+
 body p {
   padding: 2%;
   flex-wrap: wrap;
@@ -86,10 +92,6 @@ body ul {
   justify-content: space-evenly;
 }
 
-main {
-  padding: 2%;
-}
-
 @media only screen and (max-width: 500px) {
   body {
     background-color: rgb(252, 252, 251);
@@ -110,4 +112,4 @@ main {
   src: url("../roboto/Roboto-Regular.tff");
 }
 
-/*# sourceMappingURL=styles.css..map */
+/*# sourceMappingURL=styles.css.map */
