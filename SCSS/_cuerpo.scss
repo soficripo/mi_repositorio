@@ -1,4 +1,5 @@
 h1 {
+   padding: 2%;
    color: rgba(94, 94, 110, 0.801);
    transition: 6s;
 }
@@ -11,11 +12,7 @@ p ul {
    flex-wrap: wrap;
    padding: 2%;
 }
-main {
-   flex-wrap: wrap;
-   display: flex;
-   padding: 2%;
-}
+
 
 body p {
    padding: 2%;

@@ -15,16 +15,6 @@ footer ul {
   color: darkblue;
 }
 
-.comunicacion {
-  color: black;
-  width: 100px;
-  transition: 3s;
-}
-
-.comunicacion:hover {
-  transform: rotateY(360deg);
-}
-
 header nav ul {
   color: #9fdadb;
 }
@@ -40,6 +30,7 @@ header nav ul {
 }
 
 h1 {
+  padding: 2%;
   color: rgba(94, 94, 110, 0.801);
   transition: 6s;
 }
@@ -50,12 +41,6 @@ h1:hover {
 
 p ul {
   flex-wrap: wrap;
-  padding: 2%;
-}
-
-main {
-  flex-wrap: wrap;
-  display: flex;
   padding: 2%;
 }
 
