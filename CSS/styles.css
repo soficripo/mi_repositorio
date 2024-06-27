@@ -80,11 +80,21 @@ body ul {
   color: black;
 }
 
+.imagen-desarrollo img {
+  width: 70%;
+  padding: 2%;
+}
+
 .ubicacion {
   flex-wrap: wrap;
   display: flex;
   color: black;
   justify-content: center;
+}
+
+.imagen-ubicacion img {
+  width: 80%;
+  padding: 2%;
 }
 
 .productos {
