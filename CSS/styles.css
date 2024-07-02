@@ -7,7 +7,7 @@
 footer {
   flex-wrap: wrap;
   background-color: ivory;
-  padding: 2%;
+  padding: padding 2%;
 }
 footer ul {
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ header nav ul {
 }
 
 h1 {
-  padding: 2%;
+  padding: padding 2%;
   color: rgba(94, 94, 110, 0.801);
   transition: 6s;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@ h1:hover {
 
 h2 {
   font-size: medium;
-  padding: 2%;
+  padding: padding 2%;
   color: rgba(94, 94, 110, 0.801);
   flex-wrap: wrap;
   display: flex;
@@ -51,17 +51,17 @@ h2 {
 
 p ul {
   flex-wrap: wrap;
-  padding: 2%;
+  padding: padding 2%;
 }
 
 main {
-  padding: 2%;
+  padding: padding 2%;
   flex-wrap: wrap;
   display: flex;
 }
 
 body p {
-  padding: 2%;
+  padding: padding 2%;
   flex-wrap: wrap;
 }
 
@@ -82,7 +82,7 @@ body ul {
 
 .imagen-desarrollo img {
   width: 60%;
-  padding: 2%;
+  padding: padding 2%;
 }
 
 .ubicacion {
@@ -94,7 +94,7 @@ body ul {
 
 .imagen-ubicacion img {
   width: 60%;
-  padding: 2%;
+  padding: padding 2%;
 }
 
 .productos {

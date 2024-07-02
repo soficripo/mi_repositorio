@@ -1,6 +1,6 @@
 h1 {
-   padding: 2%;
-   color: rgba(94, 94, 110, 0.801);
+   padding: $medida-principal;
+   color: $color-principal;
    transition: 6s;
    flex-wrap: wrap;
    display: flex;
@@ -12,25 +12,25 @@ h1:hover {
 
 h2 {
    font-size: medium;
-   padding: 2%;
-   color: rgba(94, 94, 110, 0.801);
+   padding: $medida-principal;
+   color: $color-principal;
    flex-wrap: wrap;
    display: flex;
 }
 
 p ul {
    flex-wrap: wrap;
-   padding: 2%;
+   padding: $medida-principal;
 }
 
 main {
-   padding: 2%;
+   padding: $medida-principal;
    flex-wrap: wrap;
    display: flex;
 }
 
 body p {
-   padding: 2%;
+   padding: $medida-principal;
    flex-wrap: wrap;
 }
 
@@ -46,24 +46,24 @@ body ul {
 .desarrollo {
    flex-wrap: wrap;
    display: flex;
-   color: black;
+   color: $color-secundario;
 }
 
 .imagen-desarrollo img {
    width: 60%;
-   padding: 2%;
+   padding: $medida-principal;
 }
 
 .ubicacion {
    flex-wrap: wrap;
    display: flex;
-   color: black;
+   color: $color-secundario;
    justify-content: center;
 }
 
 .imagen-ubicacion img {
    width: 60%;
-   padding: 2%;
+   padding: $medida-principal;
 }
 
 .productos {
